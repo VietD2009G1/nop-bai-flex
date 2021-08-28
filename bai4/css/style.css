@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+.logo img{
+	width: 178px;
+	float: left;
+}
+.nav{
+	height: 100%;
+/*	background: blue;*/
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+/*	background: red;*/
+}
+.nav li{
+	margin-left: 40px;
+}
+.nav li a{
+	color: #1f1f1f;
+	font-weight: bold;
+	text-decoration: none;	
+}
+.nav li a:hover{
+	opacity: 0.8;
+}
+.content-banner{
+	margin-bottom: 15px;
+}
+.content-banner h1{
+	font-size: 44px;
+}
+.line{
+	height: 3px;
+	width: 50px;
+	background: #b7b3b3;
+	margin: 20px 0;
+}
+.content-banner {
+	font-size: 20px;
+	margin-bottom: 54px;
+}
+.btn{
+/*	background: #6c63ff;*/
+	padding: 15px 40px;
+	text-decoration: none;
+}
+.btn-primary{
+	background: #6c63ff;
+	border: 1.5px solid #353434;
+	color: white;
+}
+.btn-outline{
+	border: 1.5px solid #b7b3b3;
+	color: #000000
+}
+.banner img{
+	width: 509px;
+}
+.title{
+	text-align: center;
+}
+.title h1{
+	font-size: 44px;
+}
+.title p{
+	font-size: 20px;
+}
+.title .line{
+	margin: 28px auto;
+}
+.app{
+	text-align: center;
+}
+.app h1{
+	font-size: 27px;
+	margin: 52px 0 12px;
+}
+.app p{
+	font-size: 14px;
+}
+.feature-img img{
+	width: 207px;
+}
+.footer{
+    padding: 0;
+    box-sizing: border-box;
+    height: 500px;
+    background: #F0F0F0;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+.footer img{
+	width: 495px;
+	height: 298px;
+	margin-top: 100px;
+}
+.content-banner{
+	float: right;
+	margin-top: 150px;
+}
+.end{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 150px;
+    width: 100%;
+	text-align: center;
+}
+.end p{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 12px;
+	color: #b7b3b3;
+}
+.logo-footer{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
